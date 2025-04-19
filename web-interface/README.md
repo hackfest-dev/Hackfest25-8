@@ -29,13 +29,13 @@ This project is a cutting-edge quantum-safe blockchain explorer that leverages S
 1. Clone the repository:
 
 ```sh
-git clone <YOUR_GIT_URL>
+git clone https://github.com/hackfest-dev/Hackfest25-8.git
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd <YOUR_PROJECT_NAME>
+cd web-interface
 ```
 
 3. Install dependencies:
