@@ -94,10 +94,6 @@ Contributions are welcome! To contribute:
 
 Please ensure your code follows the existing style and passes linting.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE) (or specify your license).
-
 ## Editing Files on GitHub
 
 - Navigate to the desired file(s).
