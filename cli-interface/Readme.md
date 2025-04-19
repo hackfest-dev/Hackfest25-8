@@ -66,9 +66,8 @@ Quantum-Chain is a blockchain implementation with post-quantum cryptography that
     <th colspan="2">Development Tools</th>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="20"/> SQLite</td>
     <td>📁 LevelDB</td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="20"/> Jest</td>
+    <td></td>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20"/> Git</td>
   </tr>
 </table>
@@ -83,29 +82,32 @@ Quantum-Chain is a blockchain implementation with post-quantum cryptography that
     <th>Classical Security</th>
     <th>Quantum Security</th>
     <th>Signature Size</th>
-    <th>Verification Speed</th>
-  </tr>
+<!--     <th>Verification Speed</th>-->
+  </tr> 
   <tr>
     <td>ECDSA (Classical)</td>
     <td>128 bits</td>
     <td>❌ 0 bits</td>
     <td>~72 bytes</td>
-    <td>✅✅✅ Very Fast</td>
-  </tr>
+<!--     <td>✅✅✅ Very Fast</td>
+  -->
+    </tr> 
   <tr>
     <td>SPHINCS+</td>
     <td>256 bits</td>
     <td>✅ 128 bits</td>
     <td>~7 KB</td>
-    <td>✅ Slow</td>
+<!--     <td>✅ Slow</td>
+     -->
   </tr>
   <tr>
     <td>Lattice (Kyber)</td>
     <td>256 bits</td>
     <td>✅ 128 bits</td>
     <td>~2.5 KB</td>
-    <td>✅✅ Moderate</td>
-  </tr>
+<!--     <td>✅✅ Moderate</td>
+  -->
+     </tr>
 </table>
 </div>
 
@@ -276,8 +278,10 @@ quantum-chain wallet migrate --id "<WALLET_UUID>" --to-quantum sphincs
 
 ## Quantum Attack
 
-![image](https://github.com/user-attachments/assets/280c5956-f94c-400d-9801-abf844e031f2)
-![image](https://github.com/user-attachments/assets/eb12cdc4-2e52-4a05-a190-9934d852f996)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/280c5956-f94c-400d-9801-abf844e031f2" width="800" height="250" />
+  <img src="https://github.com/user-attachments/assets/eb12cdc4-2e52-4a05-a190-9934d852f996" width="800" height="250" />
+</p>
 
 
 
