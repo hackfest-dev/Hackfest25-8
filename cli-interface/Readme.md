@@ -276,12 +276,7 @@ quantum-chain attack simulate --qubits 4000 --target "qx..."
 quantum-chain wallet migrate --id "<WALLET_UUID>" --to-quantum sphincs
 ```
 
-## Quantum Attack
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/280c5956-f94c-400d-9801-abf844e031f2" width="800" height="250" />
-  <img src="https://github.com/user-attachments/assets/eb12cdc4-2e52-4a05-a190-9934d852f996" width="800" height="250" />
-</p>
 
 
 
