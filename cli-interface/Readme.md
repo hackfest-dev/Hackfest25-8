@@ -1,8 +1,13 @@
-
-
-# Quantum-chain
-
 <div align="center">
+  <img src="[https://via.placeholder.com/150x150?text=Q](https://github.com/user-attachments/assets/be7b757b-9b78-483d-b777-6c6b3b296c20)" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" />
+  
+  <h1>
+    <span style="background: linear-gradient(45deg, #6e48aa, #9d50bb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5rem; font-weight: 800; letter-spacing: -1px;">
+      QUANTUM-CHAIN
+    </span>
+  </h1>
+  
+  
   
   ![image](https://github.com/user-attachments/assets/be7b757b-9b78-483d-b777-6c6b3b296c20)
 
@@ -10,7 +15,7 @@
   
   # Quantum-Resistant Blockchain Implementation
 
-  <p>A next-generation blockchain with post-quantum cryptography capabilities</p>
+  <p>A breakthrough blockchain architecture that maintains security integrity in the face of emerging quantum computing threats. Our implementation protects digital assets through innovative cryptographic approaches that can withstand attacks from both classical and quantum adversaries.</p>
 
   [![Node.js](https://img.shields.io/badge/Node.js-v18.x-green.svg)](https://nodejs.org/)
 
@@ -18,7 +23,8 @@
 
 ## 📋 Overview
 
-Quantum-Chain is a blockchain implementation with post-quantum cryptography that demonstrates quantum attack vectors and countermeasures. This project provides both educational value and practical tools for understanding the impact of quantum computing on blockchain security.
+<p>Quantum-Chain represents a paradigm shift in blockchain security, implementing a hybrid approach that combines traditional cryptography with advanced quantum-resistant algorithms. Unlike conventional blockchains that remain vulnerable to quantum computing advancements, our system preemptively addresses these security challenges while maintaining performance and compatibility with existing infrastructure.</p>
+<p>The core innovation lies in our dual-signature system, allowing transactions to leverage either classical ECDSA for speed and compatibility or transition to SPHINCS+ and lattice-based algorithms for robust protection against quantum threats. This creates a future-proof blockchain that safeguards digital assets against both present and emerging computational attacks.</p>
 
 ## 🚀 Key Features
 
