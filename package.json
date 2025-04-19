@@ -1,0 +1,53 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "name": "quantum-chain",
+    "version": "1.0.0",
+    "description": "Quantum-resistant blockchain implementation with attack simulation capabilities",
+    "main": "bin/quantum-chain.js",
+    "bin": {
+      "quantum-chain": "./bin/quantum-chain.js"
+    },
+    "scripts": {
+      "start": "node bin/quantum-chain.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "wallet": "node bin/quantum-chain.js wallet",
+      "wallet:create": "node bin/quantum-chain.js wallet create",
+      "wallet:list": "node bin/quantum-chain.js wallet list",
+      "wallet:info": "node bin/quantum-chain.js wallet info",
+      "wallet:balance": "node bin/quantum-chain.js wallet balance",
+      "wallet:migrate": "node bin/quantum-chain.js wallet migrate",
+      "tx": "node bin/quantum-chain.js tx",
+      "tx:create": "node bin/quantum-chain.js tx create",
+      "tx:info": "node bin/quantum-chain.js tx info",
+      "chain": "node bin/quantum-chain.js chain",
+      "chain:status": "node bin/quantum-chain.js chain status", 
+      "block": "node bin/quantum-chain.js block",
+      "block:info": "node bin/quantum-chain.js block info",
+      "mine": "node bin/quantum-chain.js mine",
+      "security": "node bin/quantum-chain.js security",
+      "security:metrics": "node bin/quantum-chain.js security metrics",
+      "attack": "node bin/quantum-chain.js attack",
+      "attack:analyze": "node bin/quantum-chain.js attack analyze",
+      "attack:simulate": "node bin/quantum-chain.js attack simulate",
+      "attack:report": "node bin/quantum-chain.js attack report"
+    },
+    "keywords": [
+      "blockchain",
+      "quantum",
+      "cryptography",
+      "post-quantum",
+      "SPHINCS+",
+      "lattice"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^4.1.2",
+      "commander": "^9.4.0",
+      "elliptic": "^6.5.4",
+      "figlet": "^1.5.2",
+      "inquirer": "^8.2.4",
+      "ora": "^5.4.1",
+      "uuid": "^8.3.2"
+    }
+  }

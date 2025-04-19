@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1745061642724,
+    "transactions": [
+      {
+        "timestamp": 1745061642724,
+        "from": "GENESIS",
+        "to": "GENESIS",
+        "amount": 0,
+        "txHash": "901131d838b17aac0f7885b81e03cbdc9f5157a00343d30ab22083685ed1416a",
+        "signatureType": "GENESIS",
+        "signature": "GENESIS"
+      }
+    ],
+    "previousHash": "0",
+    "nonce": 0,
+    "hash": "4dafd0b42798a627e1dd984bb5d2f9e9a1b7dc840c3a2f40360117c167063df2"
+  },
+  {
+    "index": 1,
+    "timestamp": 1745062986103,
+    "transactions": [
+      {
+        "timestamp": 1745062986103,
+        "from": "MINING_REWARD",
+        "to": "qx493f12369ed598feef7ab84fe374f8d959e88a7d",
+        "amount": 100,
+        "txHash": "cf79bc50532c7f2318ee6f66835492ee5314a186e598c6cfeb30878b12cfbd5a",
+        "signatureType": "SYSTEM",
+        "signature": "SYSTEM"
+      }
+    ],
+    "previousHash": "4dafd0b42798a627e1dd984bb5d2f9e9a1b7dc840c3a2f40360117c167063df2",
+    "nonce": 3231,
+    "hash": "00006af85660afc0208ef4b354c6089bfa4fd11383675ccaa1353253e66fa94e"
+  }
+]
