@@ -51,7 +51,7 @@ Quantum-Chain is a blockchain implementation with post-quantum cryptography that
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20"/> Node.js</td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="20"/> TypeScript</td>
+    <td></td>
     <td>🔒 SPHINCS+</td>
     <td>🧩 Kyber Lattice</td>
   </tr>
@@ -67,6 +67,7 @@ Quantum-Chain is a blockchain implementation with post-quantum cryptography that
   </tr>
   <tr>
     <td>📁 LevelDB</td>
+    <td></td>
     <td></td>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20"/> Git</td>
   </tr>
