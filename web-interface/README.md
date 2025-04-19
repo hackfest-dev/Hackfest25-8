@@ -79,7 +79,7 @@ npm run dev
 
 Open your browser and navigate to `http://localhost:xxxx` (or the port shown in your terminal) to view the app.
 
-## 🏗️ Build
+## Build
 
 To create a production build:
 
