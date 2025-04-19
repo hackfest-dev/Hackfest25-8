@@ -130,17 +130,6 @@ web-interface/
 
 ```
 
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-Please ensure your code follows the existing style and passes linting.
 
 ## Editing Files on GitHub
 
