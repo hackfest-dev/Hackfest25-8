@@ -71,15 +71,63 @@ npm run preview
 ## Folder Structure
 
 ```
-src/
-├── components/          # Reusable UI components
-├── hooks/               # Custom React hooks
-├── integrations/        # External service integrations (e.g., Supabase)
-├── lib/                 # Utility functions
-├── pages/               # Application pages and routes
-├── services/            # API and data fetching services
-├── types/               # TypeScript type definitions
-public/                  # Static assets
+web-interface/
+├── node_modules/
+├── public/
+│   └── robots.txt
+├── src/
+│   ├── backend/
+│   │   └── crypto/
+│   │       ├── kyber/
+│   │       └── sphincs/
+│   │           └── utils.ts
+│   ├── components/
+│   │   └── ui/
+│   │       ├── Layout.tsx
+│   │       ├── Navbar.tsx
+│   │       ├── NetworkSecurityGraph.tsx
+│   │       ├── QuantumAttack.tsx
+│   │       ├── QuantumDemo.tsx
+│   │       ├── SearchInput.tsx
+│   │       ├── SecurityComparison.tsx
+│   │       ├── SecurityMetrics.tsx
+│   │       ├── SecurityRiskPie.tsx
+│   │       ├── SecurityStatus.tsx
+│   │       ├── Sidebar.tsx
+│   │       ├── StatsCard.tsx
+│   │       ├── TransactionFlow.tsx
+│   │       ├── TransactionsList.tsx
+│   │       ├── TransactionVolume.tsx
+│   │       └── WalletButton.tsx
+│   ├── frontend/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── lib/
+│   ├── pages/
+│   ├── services/
+│   ├── types/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── supabase/
+├── .gitignore
+├── blockchainapi.txt
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
 ```
 
 ## Contributing
