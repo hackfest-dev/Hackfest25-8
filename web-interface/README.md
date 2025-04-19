@@ -159,7 +159,7 @@ web-interface/
 
 
 <div align="center">
-  <p>Thank you for exploring this quantum-safe blockchain project! If you have any questions or feedback, feel free to open an issue or contact the maintainers.</p>
+  <p>Thank you </p>
   
   <img src="https://img.shields.io/badge/SPHINCS+-Enabled-8A2BE2" alt="SPHINCS+ Enabled">
   <img src="https://img.shields.io/badge/Kyber-Lattice-00BFFF" alt="Kyber Lattice">
