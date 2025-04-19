@@ -130,7 +130,7 @@ chmod +x bin/quantum-chain.js
 npm install -g .
 ```
 
-## 📚 Command Reference
+##  Command Reference
 
 ### Wallet Management
 
@@ -197,7 +197,7 @@ npm install -g .
 </table>
 </div>
 
-## 🧪 Quantum Attack Vectors
+##  Quantum Attack Vectors
 
 ### 1. Against Classical Cryptography (ECDSA)
 - Implementation of Shor's algorithm for the discrete logarithm problem
@@ -214,7 +214,7 @@ npm install -g .
 - No known quantum algorithm provides exponential speedup
 - Retains exponential hardness even under quantum computing
 
-## 📊 Security Metrics
+##  Security Metrics
 
 The system tracks:
 - Transaction distribution by signature type
@@ -222,7 +222,7 @@ The system tracks:
 - Token security categorization (vulnerable vs. secure funds)
 - Real-time risk assessment based on quantum-vulnerable assets
 
-## 🔄 Common Workflows
+##  Common Workflows
 
 ### Setting Up a New Secure Wallet
 
