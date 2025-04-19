@@ -1,0 +1,178 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 270 75% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 270 67% 58%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 263.4 70% 50.4%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 270 75% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 67% 58%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 263.4 70% 50.4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-quantum-background text-quantum-foreground;
+    background-image: radial-gradient(rgba(124, 58, 237, 0.15) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .quantum-text-gradient {
+    @apply text-transparent bg-clip-text bg-quantum-gradient;
+  }
+
+  .quantum-card {
+    @apply bg-slate-900/80 border border-purple-800/30 backdrop-blur-sm;
+  }
+
+  .quantum-input {
+    @apply bg-slate-800 border border-purple-800/50 text-white;
+  }
+
+  .quantum-button {
+    @apply bg-quantum-gradient hover:bg-quantum-primary hover:bg-none transition-all duration-300 text-white font-medium;
+  }
+}
+
+/* Transaction Flow styles */
+.react-flow__node {
+  @apply shadow-md;
+}
+
+.react-flow__node-default {
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  border: none;
+}
+
+.react-flow__handle {
+  @apply bg-purple-500;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+}
+
+.react-flow__handle:hover {
+  @apply bg-purple-400;
+}
+
+.react-flow__controls {
+  @apply rounded-md overflow-hidden;
+}
+
+.react-flow__controls-button {
+  @apply bg-slate-800 border-slate-700 text-white hover:bg-slate-700;
+}
+
+.react-flow__minimap {
+  @apply bg-slate-900/80 border border-purple-800/30 rounded-md;
+}
+
+.react-flow__attribution {
+  @apply text-slate-500;
+}
+
+.react-flow__background {
+  @apply bg-slate-900;
+}
+
+.react-flow__edge-path {
+  @apply stroke-2;
+}
+
+.react-flow__edge-text {
+  @apply fill-white;
+}
+
+.react-flow .react-flow__edge.selected .react-flow__edge-path,
+.react-flow .react-flow__edge:focus .react-flow__edge-path,
+.react-flow .react-flow__edge:focus-visible .react-flow__edge-path {
+  @apply stroke-purple-400;
+}
+
+/* Custom Transaction Flow Components */
+.transaction-node {
+  cursor: pointer;
+}
+
+.transaction-edge {
+  cursor: pointer;
+}
+
+/* Custom Node Types */
+.user-node {
+  @apply bg-blue-600/60 border-blue-500;
+}
+
+.exchange-node {
+  @apply bg-amber-600/60 border-amber-500;
+}
+
+.contract-node {
+  @apply bg-indigo-600/60 border-indigo-500;
+}
+
+.validator-node {
+  @apply bg-emerald-600/60 border-emerald-500;
+}
+
+/* Edge Animation */
+@keyframes flowAnimation {
+  from {
+    stroke-dashoffset: 24;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.react-flow__edge-path {
+  stroke-dasharray: 5, 5;
+  animation: flowAnimation 1s linear infinite;
+}

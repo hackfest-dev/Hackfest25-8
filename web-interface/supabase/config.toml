@@ -1,0 +1,5 @@
+
+project_id = "crzilfcxqvwtlhnlovkc"
+backend_mode = "local_crypto"
+implementation = "post_quantum"
+algorithms = ["sphincsplus", "kyber512"]
