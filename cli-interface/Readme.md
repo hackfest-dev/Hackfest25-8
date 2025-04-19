@@ -12,9 +12,7 @@
 
   <p>A next-generation blockchain with post-quantum cryptography capabilities</p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Node.js](https://img.shields.io/badge/Node.js-v18.x-green.svg)](https://nodejs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-v4.9.x-blue.svg)](https://www.typescriptlang.org/)
 
 </div>
 
