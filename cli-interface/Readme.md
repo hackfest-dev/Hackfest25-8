@@ -278,31 +278,6 @@ quantum-chain wallet migrate --id "<WALLET_UUID>" --to-quantum sphincs
 
 ![Security Comparison](https://via.placeholder.com/800x400?text=Quantum+vs+Classical+Security+Visualization)
 
-## 🤝 Contributing
-
-Contributions to Quantum-Chain are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## ⚠️ Disclaimer
-
-The quantum attack simulations are theoretical approximations based on current understanding of quantum algorithms. This project is primarily for educational and research purposes.
-
-## 🙏 Acknowledgements
-
-- NIST Post-Quantum Cryptography Standardization
-- Cryptography research community
-- Open-source contributors to SPHINCS+ and Kyber implementations
-
----
 
 <div align="center">
   <sub>Built with ❤️ by the Team Mysterious Pickles </sub>
